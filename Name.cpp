@@ -50,13 +50,16 @@ int main()
 
 	if (correct == true) 
 	{
+		
 		std::cout << "Another guessed number!" << std::endl;
-
+		std::cin;
 	}
 	else if (correct == false)
 	{
+		
 		std::cout << " I doubt you are being a fair player!";
+		std::cin;
 	}
-
+	std::cin;
 	return 0;
 }
