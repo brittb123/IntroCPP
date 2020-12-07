@@ -15,8 +15,9 @@ int main()
 		int guess = (min + max) / 2;
 		std::cout << "Is this your number: " << std::endl;
 		std::cout << guess << std::endl;
+		std::cout << "press 1 for yes and 0 for no" << std::endl;
 		int Playeranswer = 0;
-		
+		//Gets the players input to tell whether its the correct nymber
 		std::cin >> Playeranswer;
 		if (Playeranswer == 1)
 		{
@@ -26,8 +27,9 @@ int main()
 		}
 		else if (Playeranswer == 0) 
 		{
-			
+			//The player tells the computer if the number is higher or lower than the guess made!
 				std::cout << "Is your answer higher or lower?" << std::endl;
+				std::cout << "press 1 for higher and 0 for lower" << std::endl;
 
 			std::cin >> Playeranswer;
 
@@ -43,15 +45,12 @@ int main()
 					max = guess - 1;
 			}
 		}
-		
-		
 
 	}
 
 	if (correct == true) 
 	{
 		std::cout << "Another guessed number!" << std::endl;
-		
 
 	}
 	else if (correct == false)
@@ -59,7 +58,5 @@ int main()
 		std::cout << " I doubt you are being a fair player!";
 	}
 
-	
-	
 	return 0;
 }

@@ -1,3 +1,2 @@
 ﻿  Name.cpp
-L:\IntroToC++\IntroCPP\Name.cpp(23,12): warning C4553: '==': result of expression not used; did you intend '='?
-  IntroCPP.vcxproj -> L:\IntroToC++\IntroCPP\Debug\IntroCPP.exe
+L:\IntroToC++\IntroCPP\Name.cpp(24,12): warning C4553: '==': result of expression not used; did you intend '='?
