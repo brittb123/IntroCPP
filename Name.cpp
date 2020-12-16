@@ -83,8 +83,7 @@ int main()
 		char Board[3][3] =
 		{ { '1', '2', '3'},
 		{'4', '5', '6'},
-		{'7', '8', '9'}
-		 };
+		{'7', '8', '9'} };
 		
 		
 		for (int row = 0; row < 3; row++)
@@ -100,7 +99,7 @@ int main()
 		std::cin >> answer;
 		if (answer == "1") 
 		{
-			Board[0][0] >> player1token;
+			Board[2][1] >> player1token;
 		}
 
 
